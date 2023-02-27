@@ -1,0 +1,85 @@
+> db Test
+> use cktbook switched to db cktbook
+> db cktbook
+> show dbs
+Exams 0.000GB
+admin 0.000GB
+config 0.000GB
+exam 0.000GB
+local 0.000GB
+> db.cktbook.insert({name:"Zombie", age:20, website:"zombie.com"})
+WriteResult({ “Inserted" : 1 })
+> db.cktbook.find()
+{ "_id" : ObjectId("639fe50acd068bdf43eee897"), "name" : "Zombie", "age" : 20,
+"website" : "zombie.com" }
+> show collections cktbook
+db.createCollection("student")
+{ "ok" : 1 }
+db.createCollection("teachers")
+{ "ok" : 1 }
+> show collections student teachers cktbook
+> db.teachers.drop() true
+> show collections student cktbook
+> db.cktbook.insert({name:"Zombie", age:20, email:"admin@cktbook.com",
+course:[{name:"MongoDB", duration:7}, {name:"Java", duration:30}]})
+WriteResult({ "nInserted" : 1 })
+> db.cktbook.find()
+{ "_id" : ObjectId("639fe50acd068bdf43eee897"), "name" : "Zombie", "age" : 20,
+"website" : "beginners.com" }
+{ "_id" : ObjectId("639fe6d0cd068bdf43eee898"), "name" : "Zombie", "age" : 20,
+"email" : "admin@vighneshbook.com", "course" : [ { "name" : "MongoDB", "duration" : 7
+}, { "name" : "Java", "duration" : 30 } ] }
+> var beginners =
+... [{"StudentId" :1001, "StudentName":”Alien”, "age":19},
+... {"StudentId" :1002, "StudentName":”Zombie”, "age":20},
+... {"StudentId":1003, "StudentName":"Luffy", "age":20}]
+> db.students.insert(beginners);
+BulkWriteResult({
+"writeErrors" : [ ], "writeConcernErrors" : [ ], "nInserted" : 3,
+"nUpserted" : 0,
+"nMatched" : 0,
+"nModified" : 0,
+"nRemoved" : 0,
+"upserted" : [ ]
+})
+> db.students.find()
+{ "_id" : ObjectId("639fe8fccd068bdf43eee899"), "StudentId" : 1001, "StudentName" :
+"Alien", "age" : 19 }
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89a"), "StudentId" : 1002, "StudentName" :
+"Zombie", "age" : 20 }
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89b"), "StudentId" : 1003, "StudentName" :
+"Luffy", "age" : 20 }
+> db.students.find().pretty()
+{ "_id" : ObjectId("639fe8fccd068bdf43eee899"), "StudentId" : 1001,
+"StudentName" : "Alien", "age" : 19
+}
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89a"), "StudentId" : 1002,
+"StudentName" : "Zombie", "age" : 20
+}
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89b"), "StudentId" : 1003,
+"StudentName" : "Luffy", "age" : 20
+}
+> db.students.update({"StudentName":"Alien"},{$set:{"StudentName":"Alien1"}},
+{multi:true}) WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.students.find().pretty()
+{ "_id" : ObjectId("639fe8fccd068bdf43eee899"), "StudentId" : 1001,
+"StudentName" : "Alien1", "age" : 19
+}
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89a"), "StudentId" : 1002,
+"StudentName" : "Zombie", "age" : 20
+}
+{ "_id" : ObjectId("639fe8fccd068bdf43eee89b"), "StudentId" : 1003,
+"StudentName" : "Luffy", "age" : 20
+}
+> db.students.remove({"studentId":1002})
+WriteResult({ "nRemoved" : 1 })
+> db.students.find().pretty()
+{ "_id" : ObjectId("639fe8fccd068bdf43eee899"),
+"studentId" : 1001,
+"studentName" : "Alien1",
+"age" : 19
+}
+{
+"_id" : ObjectId("639fe8fccd068bdf43eee89b"), "StudentId" : 1003,
+"StudentName" : "Luffy", "age" : 20
+}
