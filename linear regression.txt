@@ -1,3 +1,37 @@
+Aim: Practical of simple /Multiple linear Regression.
+
+Theory:
+
+- A supervised technique used for predicting the value when the data is continuous of real valued is known as regression. Regression consist of variable known as t or output variable and Independent variable known as or input variables.
+
+Examples of the task in which the regression. Cant be used are:
+
+•Predicting the house price
+
+Predicting age of person Predicting nationality of person
+
+Predicting stock price of the community etc. Some of the important features of linear regression are as belows:
+
+•Linear regression is a fast f a fast & easy to use to model technique and is mainly useful when relationship is modelled f is not extremly Complex
+
+• Linear regression is not
+
+fewer
+
+amounts
+Regression is divided mainly into two types which are!
+
+1) simple Regression:
+
+It has only one feature and its simple to use & develop, simple regression is further classified into simple linear regression and simple non-linear regression.
+
+2. Multiple Regression:-
+
+It has two more than features & its little Complex to develop with respect to simple regression
+
+
+
+
 loan <- read.csv(file.choose(), header=TRUE, sep=",")
 head(loan)
 summary(loan)
