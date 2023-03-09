@@ -1,3 +1,19 @@
+im: Practical of Principle Component Analysis.
+
+Theory:
+
+-A poinciple component analysis (PCA) can be considered as rotation of axes of the original variable coordinate system to new orthogonal such that axes called as principal axes, new axes coincide with directions of maximum variation. of the original observations.
+
+PCA is also called as karhunen - Loene or K-L method. This is method of dimensiona- lity reduction searches for k-n dimensional orthogonal vectors that represent the data Can best used to
+
+The original data are thus projected much smaller space which results. dimentionality. reduction. onto a to
+
+Basic procedure Followed in PCA :
+
+flastly the input data is normalized so that the features fall into the simulat ange. This step is performed in order to normalize the large and small domain values
+
+PCA then Computes & ortho which provide a basis data. normal vectors normalized
+
 data("iris")
 head(iris)
 summary(iris)
