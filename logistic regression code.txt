@@ -1,3 +1,17 @@
+im:- Practical of Logistic Regression
+
+Theory:-
+
+logistic regression is used to predict the values which has only two possible values like yes, no 1.0 etc. As it provides two Possible outcomes it can also be considered as classification technique. It creates a logistic Carne which generally has the values between o and 1.
+
+It uses sigmoid function which is given as, σ (2) It e -H f(s) = - He
+
+logistic regression is used in email as spam or not as a prediction of particular tumour as malignant or not and similar applications many
+
+f(s) = te-se -H
+
+logistre regression (sigmoid function)
+
 loan <- read.csv(file.choose(), header=TRUE, sep=",")
 head(loan)
 summary(loan)
