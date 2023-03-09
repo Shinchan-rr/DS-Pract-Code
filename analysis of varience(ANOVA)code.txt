@@ -1,3 +1,35 @@
+Aim: Practical of analysis of variance (ANOVA) Acording to R.A fisher, analysis of variance
+
+separation of variance ascribable to one group" of causes from the variance ascribable' to group". B this technique the total variation they sample data is expressed as the sum of its nonnegative components where each of these Components is a measure of the variation due to some specific indepent factor or Cause. Source
+
+CANOVA) is the
+
+The Analysis of variance, popularly know as the ANOVA can be used in cases where there are samples. we Can use the ttest to compare the means of the samples but it might become unreliable in case of more than two samples. If we only compare two means, then the t-test (independent samples) will give the same results as the ANOVA.
+
+Assumptions: For the validity of the F-test in ANOVA the following assumptions are made. i) The observations are independent ii) Parent population from which
+
+observations are taken iii) various treatment & enrisonmental effects are is normal addictive in mature
+objective of ANOVA:
+
+1) It identifies the causes of variation & Sort out corresponding components of variation with associated degrees of freedom.
+
+ii) It provides test of significance based on F-distribution.
+
+One-way ANOVA :
+
+when we compare more than two groups, based on factor (independent variable this is called one way anova. for example, it is used if a manufacturing company. wants to compare the productivity of three or more employees based on working hors. This is called one way ANOVA.
+
+The one-way ANOVA compares the means between the groups you are interested in and determines wheather any means are statistifically significantl of those different from each other specifically, it tests the null hypothesis
+
+Hoi Mi M2 = M 3 =
+
+=Mk
+
+where ui ith group mean and k = number of groups. If, however the one-way ANOVA returns a statistically significant. result we accept the alternative hypothesis (HI) which is that there are at least two groups means that are Statistically significantly different from each other
+
+
+
+
 data("warpbreaks")
 head(warpbreaks)
 summary(warpbreaks)
