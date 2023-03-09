@@ -1,3 +1,32 @@
+Arm: Practical of k means dustering.
+Theory:
+some of the key features of k-means are as follow: - k-means an exploratory data analysis.
+
+technique.
+
+Implements nonhierarchical method of grouping objects together
+
+k-means determines the centroid
+
+using
+
+Euclidean method for distance calculation After calculating minimum distaces group of objects are created by considering the miniumum distance.
+
+k-means clustering is a type of usupervised which is used when labeled data you hane
+
+1 "The goal of this algorithm is to find. groups in the data, with the number of groups. represented by variable k The algorithm works iteratively to assign each data point to one * on the features that are provided. groups based
+Labels for the training data Rather than defining groups belone looking at the data clustering allows you to find and analyze the groups of can be determined.
+
+Each controid of cluster is a collection of feature values which define the resulting groups Examining the Controld feature weights can be used to qualitatively interpret what kind of each cluster reprients.
+
+1 This introduction to the k-means clustering algorithm Covers:
+
+Common, business cases where k-means is used. • The steps involved in inourning the
+
+algorithm A python example using delivery fleet data.
+
+
+
 "k-means clustering "
 data("iris")
 names(iris)
