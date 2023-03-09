@@ -1,3 +1,56 @@
+Aim;- Practical of Data collection. Data Curation and management for large scale data Systems (such as mongDB)
+
+Theory Mongo DB
+
+1 It is a Coss platform, document oriented database that provides high performance, high avaibility, easy scalability - It works on concept of collection and document
+
+In Mongo DB there is no Concept of
+
+relationship Data us physical container Each database gets its own set of files on 1
+
+the file system
+
+Simple MongoDB server has mu Hiple databases. -Here collection is group of MongoDB documents. equivalent to SQL table.
+
+Collection do not enforce a schema documents within a collection can have different builds.
+
+- It is a set of key- value pair.
+
+Advantages of MongoDB
+schemaless
+
+11) Scalability
+
+1) Rich queries
+
+iv) Document-oriented storage
+Dala Curation !!!
+
+-It is Management of the data life cycle. The teem is typically applied to efforts to colled and preserve historical data.
+
+Create Database in MongoDB once you are in the MongoDB shell, create the database in MongoDs by typing this document command. Use database_name.
+
+eg. Use beginnersbook >use beginnersbook switched to db beginnersbook
+
+To list down all the databases, use the command
+
+show dbs
+
+> show dbs
+
+beginnersbook 0.000 GB Config 10.000 GB
+
+Focal
+
+0.000 GIB
+
+Mango DB drop database The syntax to drop a database is db.
+
+db. drop Database ()
+
+-This Command deletes the currently database selected
+
+
 > db Test
 > use cktbook switched to db cktbook
 > db cktbook
