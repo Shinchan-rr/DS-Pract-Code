@@ -1,3 +1,33 @@
+Aim-Practical of Decision Tree.
+
+Theory!-
+
+- A Decision Tree is an algorithm used for Supervised learning problems such as classification or regression. A Decision or classification tree is a tree in which each internal (nonleaf) node is labeled with an input feature.
+
+The arcs coming from a node labeled with feature are labeled with each of the possible Values the feature. Each leaf of the tree is labeled with a class or probability distribution onex the classes.
+
+A tree Can be learned" by splitting the Source into subsets based on an attribute value test. This process is repeated on each dexined subset in a recursive manner Called recursive partitioning.
+
+-This process of top-Down induction of decision tree is an example of greedy algorithm, and it is the most Common Strategy for learning decision trees. Decision tree used in data mining are of two main types
+
+• classification tree:-
+
+when the response is nominal variable, for example if an email
+Regression tree:
+
+when the predicted outcome can be Considered a real number.
+
+Decision trees are a simple method, and as such has some problems. One of this issues is a high variance in the resulting models that decision tree produce, In order to alleviate this Problem, ensemble methods of decision tree were dendoped.
+
+There are two groups of ensemble methods currently used extensively.
+Bagging decision trees: These trees are used to build multiple decision trees by repeatedl sesampling training data with replacement, f voting the trees for a Consensus Prediction.
+
+Boosting decision tree: Gradient boosting Combines weak learners in this case, decision trees into a single strong, fashion. It fits learner, in an iterative a weak tree to the data and iteratively keeps fitting weak learners in order to correct the Previous model. error of the
+
+
+
+
+
 "PassengerId:type should be integers
 Survived:Survived or Not
 Pclass:Class of Travel
