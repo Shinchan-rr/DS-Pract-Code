@@ -1,3 +1,35 @@
+Alm: Practical of Hypothesis testing
+
+Theory: statistical hypothesis:-
+
+An assumption about population parameter or about Probability distribution of a random variable regarding the population is known as statistical hypothesis.
+
+For example:
+
+1) An Averarg monthly production of bulbs in a factory, 10,000 ii) waiting time on college fees is is minutes iii) Life time distribution of bulbs produced 2 company is N(20000 hos, 1002 has 2).
+
+Null hypothesis and the Alternative hypothesis- In testing of hypothesis we Opposing hypothesis about. a examine two population the null hypothesis & the alternating hypothesis
+
+Null hypothesis CH)
+
+A hypothesis based on experience, or which is believed to be true us known as hypothesis. It is represented as Ho.. one null
+
+Having get up the Null hypothesis, we try to gather information from the sele de d Sample, which either supports of discards the null hypothesis
+However when we find observations contracting it, we and the sporting the validity of null hypothesis, and the problem of testing validity the null hypothesis ories. To test the vali of assumption Statistical test. we need to conduct a
+
+Alternative hypothesis (H1):- Alternative statement to null hypothesis is called alternative hypothesis & is denoted by H1.
+
+In other words, null hypothesis cis the assumption which is believed to be true and the assumption which is true, when null hypothesis is false. Is, reffered to as alternative hypothesis
+
+for example. Ho: M = 100 against Hi: >100 hypothesis are null and alternative
+
+The alternative hypothesis can be of 8 types: like if we want to test the null hypothesis that are population has a specified mean say mo ie Holl =llo then the alternative hypothesis Could be
+
+1) H₁: Mo this type of alternative hypothesis is reffered to as two- alternative hypothesis, since it meontions the value of parameter tailed on both sides of allo. i,e either less than or greater than Mo.
+
+
+
+
 data <- seq(1, 20, by = 1)
 data
 mean(data)
