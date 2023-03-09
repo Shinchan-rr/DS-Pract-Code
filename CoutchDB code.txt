@@ -1,3 +1,17 @@
+Alm Practical of data collection, data curation 4 management for unstructured data.
+
+Theory
+
+CouchDB is an open-source Nosal database. It mainly focuses on ease of use It was developed by the Apache software foundation.
+
+Apache CouchDB is one the latest breed of database couchDB is a multi-master application released in 2005 and became an Apache project in 2008. It is written In the Erlang programming language. It is basically a document oriente d database and waite wittyn each document fields are stored as key-value maps. Fields can be either a simple key/value pala, list on map
+
+CouchDB uses HTTP protocol for API It uses javascript as it query language, to transform the documents and ISON to store data.
+
+why CouchDB?
+
+Couch DB is used as it very powerful to query your data. It also has a Schema face document model which makes more foiendly with the common
+
 install.packages('sofa')
 library('sofa')
 #------------------------------
