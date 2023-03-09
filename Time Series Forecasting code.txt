@@ -1,3 +1,26 @@
+Aim: Practical of time sexies forecasting. -Time series analysis consists of set of methods used to analyse various data facts 0 statistics from various characteristics of the data. Time series analysis is used foo
+
+Continuous data.
+For example, economic growth of an organization, share prices, sales temperature wheather etc.
+
+•Time series analysis modd has time factor "t" as an idependent variable & the target is a dependent variable denoted by yt. The output from the time series model is predicted value at the given time t. Time sexles is the process of recording of data at regular interval of time.
+
+Time series Components:
+
+There are various time series components which are as follows
+
+1. Trend It is considered to behaviour of the feature at the particular amount of time be categorized as increasing decreasing trend it can constant trend,
+
+amount of time -when the particular, feature value increases in particular it is increasing trend, similarly, if it decreases it is decreasing trend when it Constant trend.
+
+2. seasonality: seasonality is a pattern which repeats at the constant frequency and for the for example, here the umbrellas will be in rainy season only
+
+-cycles are type of seasonality pattern but is does not repeat at regular" frequency, cycle can be generally considered as the task completion time
+
+1 For example, in int iterative model of software engineering every iteration can have different time requisenment, but the every task has to undergo all stages in a single iteration.
+
+
+
 data("AirPassengers")
 class(AirPassengers)
 start(AirPassengers)
